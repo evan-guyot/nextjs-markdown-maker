@@ -62,7 +62,7 @@ const ModalComponent = ({
                   value={content}
                   onChange={(e) => handleChangeListContent(e, index)}
                   className="w-full focus:outline-none p-2 rounded-md bg-black/5 dark:bg-white/5 resize-none"
-                  placeholder={`Enter ${type.name}`}
+                  placeholder={`Enter ${type.name} element`}
                 />
               </div>
             ))}

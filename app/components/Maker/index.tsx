@@ -73,7 +73,7 @@ const Maker = () => {
                 New component
               </DialogTitle>
               <TabGroup>
-                <TabList className="flex gap-4">
+                <TabList className="grid grid-cols-3 gap-1 justify-between">
                   {types.map((type) => (
                     <Tab
                       key={type.name}
