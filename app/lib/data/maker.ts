@@ -28,4 +28,13 @@ export const types: IComponentType[] = [
     tag: "blockquote",
     tagList: [{ value: "blockquote", description: "Quote" }],
   },
+  {
+    name: "List",
+    tag: "ol",
+    childTag: "li",
+    tagList: [
+      { value: "ol", description: "Organised list" },
+      { value: "ul", description: "Unordered list" },
+    ],
+  },
 ];

@@ -36,7 +36,10 @@ const Maker = () => {
     setIsOpen(false);
   };
 
-  const handleChangeValue = (value: string, type: IComponentType) => {
+  const handleChangeValue = (
+    value: string | string[],
+    type: IComponentType,
+  ) => {
     setCurrentComponent({ value: value, type: type });
   };
 

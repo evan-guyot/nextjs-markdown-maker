@@ -1,6 +1,7 @@
 export interface IComponent {
-  value: string;
+  value: string | string[];
   type: IComponentType;
+  subType?: string;
 }
 
 export interface ITags {
@@ -11,5 +12,6 @@ export interface ITags {
 export interface IComponentType {
   name: string;
   tag: string;
+  childTag?: string;
   tagList: ITags[];
 }
