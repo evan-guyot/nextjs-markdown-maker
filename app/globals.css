@@ -16,6 +16,11 @@ body {
   color: rgb(var(--foreground-rgb));
 }
 
+ol,
+ul {
+  list-style-position: inside;
+}
+
 ol {
   list-style-type: decimal;
 }
